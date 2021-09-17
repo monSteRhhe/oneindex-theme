@@ -1,2 +1,3 @@
 # oneindex-theme
-自用小修小改oneindex主题。
+简单修改的oneindex主题，自用。
+
