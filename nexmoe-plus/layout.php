@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
 	<title><?php e(config('site_name'));?></title>
 	<link rel="stylesheet" href="//cdn.bootcdn.net/ajax/libs/mdui/1.0.2/css/mdui.min.css">
-	<link rel="stylesheet" href="/view/nexmoe-plus/assets/css/style.css?version=1.1.1">
+	<link rel="stylesheet" href="/view/nexmoe-plus/assets/css/style.css?version=1.0.2">
 	<link rel="shortcut icon" href="/view/nexmoe-plus/assets/img/favicon.ico">
 	<script src="//cdn.bootcdn.net/ajax/libs/mdui/1.0.2/js/mdui.min.js"></script>
 </head>
