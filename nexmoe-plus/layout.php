@@ -11,18 +11,12 @@
 <style>
 body {
     background-color: #f2f5fa;
-    background-image: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url('/view/nexmoe-plus/images/wpc.jpg');
+    background-image: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url('/view/nexmoe-plus/images/bg.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-attachment: fixed;
-}
-
-@media screen and (max-width:980px) {
-    body{
-        background-image: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url('/view/nexmoe-plus/images/wpe.jpg');
-    }
 }
 
 .nexmoe-item {

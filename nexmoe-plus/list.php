@@ -159,6 +159,26 @@ function downall() {
     a.remove();
 }
 
+function thumb(){
+	if($('.mdui-fab i').text() == "apps"){
+		$('.mdui-fab i').text("format_list_bulleted");
+		$('.nexmoe-item').removeClass('thumb');
+		$('.nexmoe-item .mdui-icon').show();
+		$('.nexmoe-item .mdui-list-item').css("background","");
+	}else{
+		$('.mdui-fab i').text("apps");
+		$('.nexmoe-item').addClass('thumb');
+		$('.mdui-col-xs-12 i.mdui-icon').each(function(){
+			if($(this).text() == "image" || $(this).text() == "ondemand_video"){
+				var href = $(this).parent().parent().attr('href');
+				var thumb =(href.indexOf('?') == -1)?'?t=220':'&t=220';
+				$(this).hide();
+				$(this).parent().parent().parent().css("background","url("+href+thumb+")  no-repeat center top");
+			}
+		});
+	}
+}
+
 $(function(){
 	$('.file a').each(function(){
 		$(this).on('click', function () {
@@ -185,4 +205,9 @@ $(function(){
 
 });
 </script>
+
+<a href="javascript:thumb();" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent">
+	<i class="mdui-icon material-icons">format_list_bulleted</i>
+</a>
+
 <?php view::end('content');?>
