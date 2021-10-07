@@ -6,7 +6,7 @@
 	<title><?php e(config('site_name'));?></title>
 	<link rel="stylesheet" href="//cdn.bootcdn.net/ajax/libs/mdui/1.0.2/css/mdui.min.css">
 	<link rel="shortcut icon" href="/view/nexmoe-plus/images/favicon.ico">
-	<script src="//cdn.bootcdn.net/ajax/libs/mdui/1.0.2/js/mdui.min.js"></script>
+	<script src="//cdn.bootcdn.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
 
     <style>
     body {
